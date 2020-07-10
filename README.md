@@ -1,6 +1,6 @@
-# To-do list
+# To-do list app
 
-One Paragraph of project description goes here
+To-do list app is an application that allows to manage a list of tasks to do. It performs adding, deleting and toggling state of each task. It has modern design and basic functionality
 
 ## Getting Started
 
