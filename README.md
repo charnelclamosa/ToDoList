@@ -21,16 +21,16 @@ Give examples
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+Type this in cmd:
 
 ```
-Give the example
+cd../Project
 ```
-
-And repeat
-
 ```
-until finished
+yarn install
+```
+```
+yarn serve
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
