@@ -1,4 +1,4 @@
-[![INSERT YOUR GRAPHIC HERE](https://imgur.com/a/C8ZEqGr)]()
+![App logo](https://i.imgur.com/RmtogLg.png)
 # To-do list
 
 One Paragraph of project description goes here
