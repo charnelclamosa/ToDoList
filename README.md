@@ -61,9 +61,9 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Vue](https://vuejs.org/)
+* [Vuetify](https://vuetifyjs.com/en/)
+* [Vuex](https://vuex.vuejs.org/)
 
 ## Contributing
 
@@ -88,8 +88,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
-
-=======
-# Node modules not included
-yarn init
->>>>>>> b680f25b0e8a303e043c6b3f62a796e20e7e07a6
