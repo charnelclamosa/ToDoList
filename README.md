@@ -1,4 +1,4 @@
-<img src="https://imgur.com/a/C8ZEqGr">
+[![INSERT YOUR GRAPHIC HERE](https://imgur.com/a/C8ZEqGr)]()
 # To-do list
 
 One Paragraph of project description goes here
