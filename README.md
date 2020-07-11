@@ -1,10 +1,10 @@
 # To-do list App
 
-To-do list app is an application that allows to manage a list of tasks to do. It performs adding, deleting and toggling state of each task. It has modern design and basic functionality
+To-do list app is an application that allows to manage a list of tasks to do. It performs adding, deleting and toggling state of each task. It has modern design and basic functionality.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See the instructions below for notes on how to deploy the project on a live system.
 
 ## Screenshot
 ![App logo](https://i.imgur.com/RmtogLg.png)
@@ -16,7 +16,7 @@ Things you need to be able to use this project:
 * [Chrome](https://www.google.com/intl/en_ph/chrome/) or [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * Command prompt
 
-### Installing
+### Installation
 
 A step by step series of examples that tell you how to get a development env running
 
