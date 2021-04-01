@@ -2826,6 +2826,11 @@ deepmerge@^1.5.2:
   resolved "https://registry.npm.taobao.org/deepmerge/download/deepmerge-1.5.2.tgz?cache=0&sync_timestamp=1589901230144&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdeepmerge%2Fdownload%2Fdeepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
   integrity sha1-EEmdhohEza1P7ghC34x/bwyVp1M=
 
+deepmerge@^4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
+  integrity sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==
+
 default-gateway@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npm.taobao.org/default-gateway/download/default-gateway-4.2.0.tgz#167104c7500c2115f6dd69b0a536bb8ed720552b"
@@ -7021,6 +7026,11 @@ shelljs@^0.8.3:
     interpret "^1.0.0"
     rechoir "^0.6.2"
 
+shvl@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/shvl/-/shvl-2.0.2.tgz#eca7decb9bbd4e8dd93f06ea9ab94036319cd351"
+  integrity sha512-G3KkIXPza3dgkt6Bo8zIl5K/KvAAhbG6o9KfAjhPvrIIzzAhnfc2ztv1i+iPTbNNM43MaBUqIaZwqVjkSgY/rw==
+
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.3"
   resolved "https://registry.npm.taobao.org/signal-exit/download/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
@@ -8018,6 +8028,14 @@ vuetify@^2.2.11:
   resolved "https://registry.npm.taobao.org/vuetify/download/vuetify-2.3.3.tgz#b517e77c35f5f89d91b4d95b025131f1c5cdf35d"
   integrity sha1-tRfnfDX1+J2RtNlbAlEx8cXN810=
 
+vuex-persistedstate@^3.0.1:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/vuex-persistedstate/-/vuex-persistedstate-3.2.0.tgz#41d3ea304404769ac653ec020de80c95ce16243d"
+  integrity sha512-1Q4zV9cNaJtl59jN6rXbndemEtXKywZr0OFZnqgpYdwvdyy+64KNsEltKldQW+i03st5LuDwHsdOEevXIZUgdg==
+  dependencies:
+    deepmerge "^4.2.2"
+    shvl "^2.0.2"
+
 vuex@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.5.1.tgz#f1b8dcea649bc25254cf4f4358081dbf5da18b3d"
@@ -8286,9 +8304,9 @@ xtend@^4.0.0, xtend@~4.0.1:
   integrity sha1-u3J3n1+kZRhrH0OPZ0+jR/2121Q=
 
 y18n@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npm.taobao.org/y18n/download/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
-  integrity sha1-le+U+F7MgdAHwmThkKEg8KPIVms=
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.1.tgz#8db2b83c31c5d75099bb890b23f3094891e247d4"
+  integrity sha512-wNcy4NvjMYL8gogWWYAO7ZFWFfHcbdbE57tZO8e4cbpj8tfUcwrwqSl3ad8HxpYWCdXcJUCeKKZS62Av1affwQ==
 
 yallist@^2.1.2:
   version "2.1.2"
