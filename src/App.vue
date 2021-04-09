@@ -10,7 +10,6 @@ export default {
 </script>
 <style>
 #app {
-  background-image: url('./assets/1355.jpg');
-  background-size: cover;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
 }
 </style>
