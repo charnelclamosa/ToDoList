@@ -157,4 +157,16 @@ h2 {
     bottom: 5%;
     left: 10%;
 }
+@media screen and (max-width: 414px) {
+    .circle1, .circle2 {
+        height: 12rem;
+        width: 12rem;
+    }
+    .content {
+        width: 90%;
+    }
+    .content-head, .content-body, .item {
+        padding: 0 1rem;
+    }
+}
 </style>
