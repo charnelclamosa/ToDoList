@@ -172,8 +172,8 @@ h2 {
         left: 10%;
     }
     .circle1, .circle2 {
-        height: 10rem;
-        width: 10rem;
+        height: 12rem;
+        width: 12rem;
     }
     .content {
         width: 90%;
