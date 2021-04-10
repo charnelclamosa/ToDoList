@@ -5,15 +5,10 @@ import ToDo from '../views/ToDo.vue'
 Vue.use(VueRouter)
 
 const routes = [{
-        path: '/',
-        redirect: '/todoapp'
-    },
-    {
-        path: '/todoapp',
-        name: 'ToDo',
-        component: ToDo
-    },
-]
+    path: '/',
+    name: 'ToDo',
+    component: ToDo
+}, ]
 
 const router = new VueRouter({
     mode: 'history',

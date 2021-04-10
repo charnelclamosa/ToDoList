@@ -13,7 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Things you need to be able to use this project:
 
-* [Chrome](https://www.google.com/intl/en_ph/chrome/) - recommended to use for CSS reasons or [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+* [Chrome](https://www.google.com/intl/en_ph/chrome/) or [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * Command prompt
 
 ### Installation
