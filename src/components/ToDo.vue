@@ -3,7 +3,10 @@
     <div class="content">
         <div class="content-head">
             <h2>Todo List</h2>
-            <v-text-field v-model="createTask" @keyup.enter="addTask(createTask)" solo-inverted dense label="What do you want to do?"></v-text-field>
+           <div class="input">
+                <v-text-field v-model="createTask" @keyup.enter="addTask(createTask)" solo-inverted dense label="What do you want to do?"></v-text-field>
+            <v-btn dense dark color="#426696" class="input-btn" @click="addTask(createTask)">Add</v-btn>
+           </div>
         </div>
         <div class="content-body" v-if="Tasks.length > 0">
             <v-list dense rounded color="transparent">
@@ -96,6 +99,10 @@ h2 {
     margin-bottom: 1rem;
 }
 
+.input-btn {
+    display: none;
+    opacity: 0.8;
+}
 .content {
     width: 50%;
     background: linear-gradient(to right top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
@@ -122,8 +129,8 @@ h2 {
 }
 .item:hover {
     -webkit-box-shadow: 0 10px 6px -6px #777;
-     -moz-box-shadow: 0 10px 6px -6px #777;
-          box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 .task:hover {
@@ -155,9 +162,15 @@ h2 {
 
 .circle2 {
     bottom: 5%;
-    left: 10%;
+    left: 15%;
 }
 @media screen and (max-width: 414px) {
+    .circle1 {
+    right: 10%;
+    }
+    .circle2 {
+        left: 10%;
+    }
     .circle1, .circle2 {
         height: 12rem;
         width: 12rem;
@@ -167,6 +180,13 @@ h2 {
     }
     .content-head, .content-body, .item {
         padding: 0 1rem;
+    }
+    .input-btn {
+        display: inline;
+        margin-left: 1rem;
+    }
+    .input {
+        display: flex;
     }
 }
 </style>
