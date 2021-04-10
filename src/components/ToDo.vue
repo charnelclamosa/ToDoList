@@ -16,7 +16,7 @@
                                 <v-icon :color="task.isComplete ? 'success' : 'deep-orange lighten-1'">{{task.isComplete ? 'mdi-check-circle' : 'mdi-progress-clock'}}</v-icon>
                             </span>
                                 </template>
-                                <span>{{task.isComplete ? 'Completed' : 'Pending'}}</span>
+                                <span class="px-2">{{task.isComplete ? 'Completed' : 'Pending'}}</span>
                             </v-tooltip>
                             <span v-bind:class="{ isComplete : task.isComplete }">{{task.task}}</span>
                         </v-list-item-title>
